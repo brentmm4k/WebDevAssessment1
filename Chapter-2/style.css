@@ -61,19 +61,19 @@ footer{
     display: flex;             
     justify-content: center;        /* Justifies navbar to the center */
     align-items: center;            /* Centers items vertically */
-    position: relative;             /* Position is relative for pseudo-elements */  
+    position: relative;             /* Positioning is relative for pseudo-elements */  
     overflow: hidden;   
 }
 .navbar a{
     color: white;
-    text-decoration: none;          /* Removes the hyperlink underline and decoration */
+    text-decoration: none;                                       /* Removes the hyperlink underline and decoration */
     padding: 15px;
     display: block;
     text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for smooth effect */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Adds transition for smooth effect when being hovered */
 }
 .navbar a:hover{
-    transform: scale(1.1); /* Scale up the link on hover */
+    transform: scale(1.1);                  /* Scales up the link when being hovered */
     background-color:hsl(40, 1%, 89%);
 }
 .navbar li{

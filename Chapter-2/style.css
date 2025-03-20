@@ -12,17 +12,36 @@ main {
     text-align: justify;
 }
 h1{
+    position: relative;
     text-align: center;
     color: gold;                      
     font-family: 'Pokemon Hollow', sans-serif;
     font-size: 300%;
-    background-image: url('https://i.redd.it/qfu6je16f4i71.jpg'); /* Replace with your image path */
+    margin: 0px;
+    padding: 20px;
+}
+h1::before{
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Position it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/background.png'); /* Replace with your image path */
     background-size: cover; /* Cover the entire area */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
-    backdrop-filter: blur(5px);
-    margin: 0px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow */
+    z-index: -1; /* Place it behind the text */
+}
+h1::after{
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Position it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: -1; /* Place it behind the text */
 }
 footer{
     margin: 0px;

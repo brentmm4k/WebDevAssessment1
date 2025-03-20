@@ -2,9 +2,10 @@ body{
     margin: 30px;           /* Margin tag is used so that most of the page's focus is on the center */
     font-size: 100%;        /* Most of the page's text will follow the font size and font family */
     font-family: Helvetica;
+    background: hsl(43, 43%, 75%); /* Changes background color for the whole page */
 }
 h1{
-    color: whitesmoke;                      
+    color: whitesmoke;                   
     font-family: 'Courier New', monospace;
     font-size: 300%;
     padding: 15px;              /* The padding tag is used to make the background larger than the text itself */

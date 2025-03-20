@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-hollow');
+@import url('https://fonts.googleapis.com/css?family=Pixelify Sans');
+body {
+    margin: 0px;
+    background: hsl(41, 62%, 91%);
+}
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 160%;
+    font-family: 'Pixelify Sans';
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color: gold;                      
+    font-family: 'Pokemon Hollow', sans-serif;
+    font-size: 300%;
+    background-image: url('https://i.redd.it/qfu6je16f4i71.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    backdrop-filter: blur(5px);
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow */
+}
+footer{
+    margin: 0px;
+    font-size: 130%;
+    font-family: 'Times New Roman';
+    background: hsl(41, 65%, 62%);
+    padding: 35px;
+    text-align: left;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style-type: none;
+    font-family: 'Pixelify Sans';
+    background-color: hsl(40, 2%, 77%);
+    padding: 0px;
+    margin: 0px;
+    display: flex;             
+    justify-content: center;   
+    align-items: center; /* Center items vertically */
+    position: relative; /* Position relative for pseudo-elements */  
+    overflow: hidden;   
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:hsl(40, 1%, 89%);
+}
+.navbar li{
+    float: left;
+}

@@ -1,20 +1,22 @@
 body{
     margin: 30px;           /* Margin tag is used so that most of the page's focus is on the center */
     font-size: 100%;        /* Most of the page's text will follow the font size and font family */
-    font-family: Verdana;
+    font-family: Helvetica;
 }
 h1{
     color: whitesmoke;                      
     font-family: 'Courier New', monospace;
     font-size: 300%;
     padding: 15px;              /* The padding tag is used to make the background larger than the text itself */
-    background: goldenrod;    /* The color is chosen because it is similar to the dish's color*/
-    text-align: center;         /* Primary focus of this section is to accentuate the importance of the dish*/
+    background: goldenrod;    /* The color is chosen because it is similar to the dish's color */
+    text-align: center;         /* Primary focus of this section is to accentuate the importance of the dish */
+    border: 2px solid;
+    border-radius: 8px;
 }
 p{
     font-family: sans-serif;
     font-size: 120%;
-    text-align: justify;        /* Used to justify the long description of the dish as to not look cluttered*/
+    text-align: justify;        /* Used to justify the long description of the dish as to not look cluttered */
     text-justify: inter-word;
 }
 h2{
@@ -24,9 +26,9 @@ h2{
     padding-bottom: 10px;            /* Adds space below the headings */
 }
 .recipe-container{
-    display: flex;                      /* By default, flex-direction is set to row, thus making the containers appear side-by-side*/
-    justify-content: space-between ;    /* This is the space between "Ingreduents" and "Methods*/
+    display: flex;                      /* By default, flex-direction is set to row, thus making the containers appear side-by-side */
+    justify-content: space-between ;    /* This is the space between "Ingreduents" and "Methods */
 }
 .ingredients, .method{
-    width: 120%;                    /* Width between the two containers*/
+    width: 120%;                    /* Width between the two containers */
 }

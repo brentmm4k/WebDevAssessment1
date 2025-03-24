@@ -14,7 +14,7 @@ main {
 h1{ /*This block is focused on the text of h1*/
     position: relative;
     text-align: center;
-    color: gold;                      
+    color: gold;
     font-family: 'Pokemon Hollow', sans-serif;
     font-size: 300%;
     margin: 0px;

@@ -1,13 +1,9 @@
 .div{
-    display: flex;
-    flex-direction: column;
     font-family: helvetica;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    max-width: 170px;
-    height: auto;
-    position: relative;     /* Positioning for the overlay */
-    margin: 25px;           /* Margin around the containers */
+    width: 307px;
+    height: 407px;
 }
 img{
     width: auto;            /* Makes the image fill the rest of width of the container */
@@ -17,18 +13,18 @@ img{
 p{
     margin-top: 10px;       /* To make sure the texts are directly below the contaners*/
     font-size: 14px;
+    text-align: justify;
+    justify-content: center;
 }
 .A{
     border: 4px solid hsl(274, 64%, 58%);               /* A purple-ish border*/
     box-shadow: 10px 10px 10px hsl(360, 98%, 54%);      /* A red drop shadow*/
-    width: 170px;
 }
 .B{
     border: 4px solid hsl(120, 81%, 59%);               /* A green border*/
     box-shadow: inset 10px 10px 20px hsl(320, 6%, 10%); /* A black shadow on the inside of the container*/
-    height: 314px;
 }
-.C {
+.C{
     position: relative;                     /* Positioning for the box-shadow */
     border-radius: 20px;                    /* Round corners for the C div specifically */
     border: 4px solid hsl(34, 96%, 60%);  /* Innermost border */

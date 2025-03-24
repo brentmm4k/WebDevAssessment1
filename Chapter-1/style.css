@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Pixelify Sans'); /* Imports the URL for two external font families*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); /* Imports the URL for two external font families*/
 body{
     margin: 30px;           /* Margin tag is used so that most of the page's focus is on the center */
     font-size: 100%;        /* Most of the page's text will follow the font size and font family */
-    font-family: 'Pixelify Sans';
+    font-family: 'Patrick Hand';
     background: hsl(43, 43%, 75%); /* Changes background color for the whole page */
 }
 h1{
@@ -16,14 +16,14 @@ h1{
     border-radius: 8px;
 }
 p{
-    font-family: 'Pixelify Sans';
-    font-size: 120%;
+    font-family: 'Patrick Hand';
+    font-size: 25px;
     text-align: justify;        /* Used to justify the long description of the dish as to not look cluttered */
     text-justify: inter-word;
 }
 h2{
     text-align: center;
-    font-size: 150%;
+    font-size: 30px;
     border-bottom: 2px solid #ccc; /* Adds a border under the headings */
     padding-bottom: 10px;            /* Adds space below the headings */
 }
@@ -33,4 +33,5 @@ h2{
 }
 .ingredients, .method{
     width: 120%;                    /* Width between the two containers */
+    font-size: 30px;
 }
